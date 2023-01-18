@@ -1,0 +1,5 @@
+let str = 'HelloWorld!'
+function reverseStringAndSave(str){
+    return str.split('').reverse().join('')
+}
+console.log(reverseStringAndSave(str));
